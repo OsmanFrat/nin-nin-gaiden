@@ -302,6 +302,7 @@
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.State.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.ref.dll"
 "Assets/Course Library/_Source_Files/Scripts/DestroyAfterDelay.cs"
+"Assets/Scripts/ClickAndSwipe.cs"
 "Assets/Scripts/DiffucltyButton.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/Target.cs"

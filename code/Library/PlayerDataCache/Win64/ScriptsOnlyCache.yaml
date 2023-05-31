@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - ClickAndSwipe
     - DestroyAfterDelay
     - DiffucltyButton
     - GameManager
@@ -24,6 +25,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.Slider
   serializedClasses:
     Unity.TextMeshPro:
     - TMPro.FaceInfo_Legacy
@@ -56,11 +58,27 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.ColorBlock
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
     - UnityEngine.UI.Navigation
+    - UnityEngine.UI.Slider/SliderEvent
     - UnityEngine.UI.SpriteState
   methodsToPreserve:
   - assembly: Assembly-CSharp
     fullTypeName: GameManager
-    methodName: ResetartGame
+    methodName: Exit
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: set_volume
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
+    methodName: RestartGame
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
+    methodName: Exit
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
+    methodName: RestartGame
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
+    methodName: Exit
   sceneClasses:
     Assets/Scenes/Prototype 5.unity:
     - Class: 1
@@ -89,46 +107,56 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 90
       Script: {instanceID: 0}
     - Class: 95
       Script: {instanceID: 0}
+    - Class: 96
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1584}
+      Script: {instanceID: 1586}
     - Class: 114
-      Script: {instanceID: 2026}
+      Script: {instanceID: 2028}
     - Class: 114
-      Script: {instanceID: 2156}
+      Script: {instanceID: 2158}
     - Class: 114
-      Script: {instanceID: 2302}
+      Script: {instanceID: 2304}
     - Class: 114
-      Script: {instanceID: 2566}
+      Script: {instanceID: 2568}
     - Class: 114
-      Script: {instanceID: 2762}
+      Script: {instanceID: 2764}
     - Class: 114
-      Script: {instanceID: 3038}
+      Script: {instanceID: 2902}
     - Class: 114
-      Script: {instanceID: 4008}
+      Script: {instanceID: 3042}
     - Class: 114
-      Script: {instanceID: 4202}
+      Script: {instanceID: 4012}
     - Class: 114
-      Script: {instanceID: 4256}
+      Script: {instanceID: 4206}
     - Class: 114
-      Script: {instanceID: 4930}
+      Script: {instanceID: 4260}
     - Class: 114
-      Script: {instanceID: 5336}
+      Script: {instanceID: 4862}
     - Class: 114
-      Script: {instanceID: 5466}
+      Script: {instanceID: 4934}
     - Class: 114
-      Script: {instanceID: 5610}
+      Script: {instanceID: 5340}
     - Class: 114
-      Script: {instanceID: 5918}
+      Script: {instanceID: 5470}
+    - Class: 114
+      Script: {instanceID: 5614}
+    - Class: 114
+      Script: {instanceID: 5922}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -254,7 +282,7 @@ ScriptsOnlyBuild:
     className: RawImage
   - hash:
       serializedVersion: 2
-      Hash: 8acdbdc0496aca1cee981e7b3e3a3dd5
+      Hash: 6d03fae7a14f2b796b67c953c956297e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameManager
@@ -354,6 +382,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ClickAndSwipe
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -951,4 +985,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/Prototype 5.unity
-  playerPath: C:/Users/papat/repos/nin-nin-gaiden/pc-build/code.exe
+  playerPath: C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code.exe

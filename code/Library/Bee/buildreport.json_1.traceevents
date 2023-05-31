@@ -1,460 +1,573 @@
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
 { "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
-{ "pid": 0, "tid": 1, "ts": 1685358453004148, "dur": 853469, "ph": "X", "name": "Build Player", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1685358453004598, "dur": 14805, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1685358453019404, "dur": 47737, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1685358453067143, "dur": 380207, "ph": "X", "name": "BuildProgram", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1685358453447353, "dur": 396842, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1685358453844196, "dur": 13361, "ph": "X", "name": "Finish", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1685358453858570, "dur": 26, "ph": "X", "name": "", "args": {} },
-{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
-{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
-{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
-{ "pid": 35942, "tid": 1, "ts": 1685358453238944, "dur": 179150, "ph": "X", "name": "BuildProgram", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1685358453240567, "dur": 70253, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1685358453392431, "dur": 7747, "ph": "X", "name": "OutputData.Write", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1685358453400182, "dur": 17901, "ph": "X", "name": "Backend.Write", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1685358453401307, "dur": 15643, "ph": "X", "name": "JsonToString", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1685358453425721, "dur": 2303, "ph": "X", "name": "", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1685358453424287, "dur": 3776, "ph": "X", "name": "Write chrome-trace events", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1685358453858710, "dur": 293, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685526123818730, "dur": 385803, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685526123819179, "dur": 10003, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685526123829183, "dur": 371610, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685526124200794, "dur": 3738, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685526124205266, "dur": 20, "ph": "X", "name": "", "args": {} },
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1685358453505694, "dur":1171, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685358453506875, "dur":68, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1685358453506974, "dur":21, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1685358453506995, "dur":210, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1685358453507319, "dur":976, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685358453508295, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685358453820593, "dur":289, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685358453820883, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685358453820898, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685358453820901, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685358453820910, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685358453820913, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685358453820926, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685358453820930, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685358453820938, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685358453820965, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685358453820983, "dur":2141, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1685358453508014, "dur":299, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685358453508314, "dur":8210, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685358453516524, "dur":1330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":1, "ts":1685358453517946, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685358453520431, "dur":2567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":1, "ts":1685358453523074, "dur":203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":1, "ts":1685358453523282, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685358453523469, "dur":4144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":1, "ts":1685358453527689, "dur":260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":1, "ts":1685358453527953, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685358453527962, "dur":2574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":1, "ts":1685358453530610, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":1, "ts":1685358453530826, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685358453530938, "dur":2985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":1, "ts":1685358453533997, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":1, "ts":1685358453534212, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685358453534229, "dur":4462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":1, "ts":1685358453538746, "dur":35165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":1, "ts":1685358453573917, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685358453573926, "dur":10861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":1, "ts":1685358453584927, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453585144, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685358453585461, "dur":1446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453586977, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453587168, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685358453587177, "dur":3270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453590531, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453590816, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685358453590827, "dur":1289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453592168, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453592366, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685358453592376, "dur":3604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453596034, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453596256, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685358453596264, "dur":1884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453598210, "dur":290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453598505, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685358453598513, "dur":2714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453601283, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453601459, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685358453601468, "dur":1508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453603041, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453603278, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685358453603286, "dur":2796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453606154, "dur":302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453606492, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685358453606506, "dur":1305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453607864, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453608029, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685358453608037, "dur":1951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453610054, "dur":268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453610326, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685358453610335, "dur":1337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453611737, "dur":559, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453612300, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685358453612309, "dur":3072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453615462, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453615693, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685358453615701, "dur":2571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453618323, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453618523, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685358453618531, "dur":1531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453620111, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453620345, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685358453620353, "dur":2162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453622595, "dur":494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453623124, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685358453623134, "dur":1869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453625071, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453625269, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685358453625276, "dur":2453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453627785, "dur":262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453628051, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685358453628060, "dur":1524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453629649, "dur":296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453629949, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685358453629983, "dur":1847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453631893, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453632115, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685358453632124, "dur":2436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453634634, "dur":457, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453635095, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685358453635104, "dur":1909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453637075, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453637288, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685358453637297, "dur":1783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453639134, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453639344, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685358453639353, "dur":3126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453642545, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453642754, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685358453642763, "dur":4811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453647629, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453647820, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685358453647829, "dur":2626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453650504, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453650672, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685358453650681, "dur":1392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453652124, "dur":460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453652587, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685358453652597, "dur":2980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453655647, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453655855, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685358453655866, "dur":1383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453657316, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453657529, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685358453657537, "dur":2272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453659867, "dur":330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453660201, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685358453660212, "dur":2809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453663099, "dur":2897, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453666030, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685358453666041, "dur":4215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453670310, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453670502, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685358453670510, "dur":1661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453672235, "dur":293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453672532, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685358453672570, "dur":2434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453675075, "dur":947, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453676026, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685358453676033, "dur":2448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453678566, "dur":392, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453678962, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685358453678970, "dur":2341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453681381, "dur":7033, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453688420, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685358453688430, "dur":5824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453694363, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453694591, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685358453694602, "dur":2012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453696682, "dur":317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453697003, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685358453697012, "dur":2020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453699129, "dur":4015, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453703149, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685358453703160, "dur":4125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453707350, "dur":455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453707809, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685358453707823, "dur":2513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453710404, "dur":9460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453719870, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685358453719883, "dur":8615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685358453728593, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/resources.assets" }}
-,{ "pid":12345, "tid":1, "ts":1685358453728691, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685358453728708, "dur":2556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/resources.assets" }}
-,{ "pid":12345, "tid":1, "ts":1685358453731338, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/level0" }}
-,{ "pid":12345, "tid":1, "ts":1685358453731409, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685358453731418, "dur":1984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/level0" }}
-,{ "pid":12345, "tid":1, "ts":1685358453733469, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1685358453733661, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685358453733669, "dur":1323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1685358453735056, "dur":85578, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453508014, "dur":309, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453508323, "dur":7909, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453516245, "dur":258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1685358453516509, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453521057, "dur":2063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1685358453523199, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1685358453523414, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453524360, "dur":3169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1685358453527609, "dur":1441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":2, "ts":1685358453529055, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453529066, "dur":1957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":2, "ts":1685358453531152, "dur":1199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":2, "ts":1685358453532434, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453532444, "dur":2191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":2, "ts":1685358453534687, "dur":14456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453549148, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453549467, "dur":1630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453551156, "dur":1056, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code.exe" }}
-,{ "pid":12345, "tid":2, "ts":1685358453552215, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453552222, "dur":3249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code.exe" }}
-,{ "pid":12345, "tid":2, "ts":1685358453555530, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":2, "ts":1685358453555703, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453556069, "dur":26837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":2, "ts":1685358453582971, "dur":267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453583243, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453584957, "dur":1573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453586584, "dur":267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453586854, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453586862, "dur":2938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453589891, "dur":322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453590217, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453590259, "dur":1438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453591750, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453591992, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453592003, "dur":3626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453595693, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453595912, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453595921, "dur":1834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453597857, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453598080, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453598120, "dur":2695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453600923, "dur":274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453601201, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453601209, "dur":1709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453602992, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453603194, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453603203, "dur":2932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453606220, "dur":384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453606608, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453606617, "dur":1729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453608393, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453608580, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453608587, "dur":1783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453610432, "dur":2286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453612722, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453612730, "dur":5276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453618061, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453618273, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453618283, "dur":1455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453619794, "dur":490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453620288, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453620296, "dur":2196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453622559, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453622803, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453622813, "dur":1704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453624607, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453624845, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453624854, "dur":2403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453627315, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453627520, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453627529, "dur":1549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453629145, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453629358, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453629367, "dur":2176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453631614, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453631827, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453631836, "dur":2280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453634168, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453634366, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453634375, "dur":1678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453636115, "dur":560, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453636681, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453636690, "dur":2155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453638919, "dur":461, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453639384, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453639393, "dur":3297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453642753, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453643004, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453643014, "dur":4297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453647378, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453647565, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453647574, "dur":2563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453650193, "dur":382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453650579, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453650586, "dur":2016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453652663, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453652894, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453652904, "dur":2958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453655922, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453656149, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453656157, "dur":1529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453657741, "dur":398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453658142, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453658151, "dur":2155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453660373, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453660582, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453660591, "dur":2468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453663131, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453663352, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453663362, "dur":1551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453664980, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453665196, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453665207, "dur":2508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453667793, "dur":395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453668193, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453668204, "dur":2673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453670928, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453671138, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453671147, "dur":1429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453672630, "dur":236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453672870, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453672879, "dur":2004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453674947, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453675183, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453675193, "dur":2287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453677550, "dur":473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453678028, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453678037, "dur":2617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453680726, "dur":702, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453681432, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453681441, "dur":2683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453684190, "dur":597, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453684791, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453684801, "dur":4022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453688890, "dur":1996, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453690891, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453690902, "dur":3252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453694221, "dur":397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453694623, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453694634, "dur":2012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453696710, "dur":1053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453697768, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453697777, "dur":1904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453699730, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453699982, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453699991, "dur":1444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453701499, "dur":2144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453703648, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453703656, "dur":3492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453707362, "dur":777, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453708145, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453708160, "dur":3337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453711583, "dur":608, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453712195, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453712204, "dur":1989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685358453714282, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":2, "ts":1685358453714374, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453714543, "dur":3476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":2, "ts":1685358453718086, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":2, "ts":1685358453718156, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453718166, "dur":1860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":2, "ts":1685358453720099, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":2, "ts":1685358453720305, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453720313, "dur":2531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":2, "ts":1685358453722946, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":2, "ts":1685358453723128, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453723139, "dur":1949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":2, "ts":1685358453725213, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1685358453725307, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453725317, "dur":4010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1685358453729396, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/level0.resS" }}
-,{ "pid":12345, "tid":2, "ts":1685358453729464, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453729472, "dur":2690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/level0.resS" }}
-,{ "pid":12345, "tid":2, "ts":1685358453732234, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":2, "ts":1685358453732298, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685358453732305, "dur":2263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":2, "ts":1685358453734629, "dur":85946, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685358453508008, "dur":297, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685358453508308, "dur":7920, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685358453516244, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":3, "ts":1685358453516254, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685358453518231, "dur":708, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":3, "ts":1685358453518947, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/app.info" }}
-,{ "pid":12345, "tid":3, "ts":1685358453519024, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685358453519330, "dur":3485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/app.info" }}
-,{ "pid":12345, "tid":3, "ts":1685358453522817, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1685358453523032, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685358453523451, "dur":3311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1685358453526824, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1685358453527131, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685358453527241, "dur":2069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1685358453529367, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":3, "ts":1685358453529557, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685358453530944, "dur":2576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":3, "ts":1685358453533599, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":3, "ts":1685358453533817, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685358453533828, "dur":2882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":3, "ts":1685358453536832, "dur":121730, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685358453658566, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685358453658669, "dur":10187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685358453668913, "dur":312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685358453669228, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685358453669236, "dur":2331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685358453671629, "dur":518, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685358453672151, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685358453672160, "dur":2095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685358453674317, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685358453674531, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685358453674541, "dur":2007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685358453676615, "dur":1044, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685358453677663, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685358453677674, "dur":3148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685358453680890, "dur":414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685358453681308, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685358453681317, "dur":2609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685358453683991, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685358453684233, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685358453684243, "dur":3737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685358453688113, "dur":890, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685358453689007, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685358453689016, "dur":1671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685358453690749, "dur":381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685358453691135, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685358453691143, "dur":3554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685358453694761, "dur":417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685358453695182, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685358453695191, "dur":2335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685358453697603, "dur":5802, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685358453703411, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685358453703422, "dur":6634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685358453710133, "dur":306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685358453710443, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685358453710453, "dur":1743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685358453712257, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685358453712441, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685358453712450, "dur":2070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685358453714592, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":3, "ts":1685358453714656, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685358453714664, "dur":17036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":3, "ts":1685358453731771, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":3, "ts":1685358453731836, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685358453731845, "dur":2209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/code_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":3, "ts":1685358453734154, "dur":86482, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685358453508174, "dur":156, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685358453508330, "dur":7900, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685358453516245, "dur":1402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":4, "ts":1685358453517692, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685358453520465, "dur":2501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":4, "ts":1685358453523044, "dur":1197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1685358453524244, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685358453524255, "dur":2099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1685358453526417, "dur":1160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":4, "ts":1685358453527582, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685358453527595, "dur":1783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":4, "ts":1685358453529453, "dur":2011, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":4, "ts":1685358453531468, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685358453531478, "dur":2544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":4, "ts":1685358453534097, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":4, "ts":1685358453534289, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685358453534297, "dur":4227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":4, "ts":1685358453538582, "dur":257210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/pc-build/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685358453795799, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685358453795812, "dur":24681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/pc-build/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685358453820555, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":4, "ts":1685358453820559, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685358453825317, "dur":2622, "ph":"X", "name": "ProfilerWriteOutput" }
-,{ "pid": 0, "tid": 1, "ts": 1685358453859099, "dur": 1613, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1685358453858555, "dur": 2191, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+,{ "pid":12345, "tid":0, "ts":1685526123864417, "dur":1535, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685526123865965, "dur":206, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1685526123866201, "dur":25, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1685526123866226, "dur":314, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1685526123866581, "dur":1154, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685526123867735, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685526124169606, "dur":397, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685526124170003, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685526124170018, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685526124170024, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685526124170041, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685526124170045, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685526124170055, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685526124170058, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685526124170069, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685526124170085, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685526124170100, "dur":1952, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1685526123867331, "dur":423, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526123867754, "dur":9751, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526123877505, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1685526123877732, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526123877864, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526123880357, "dur":2789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1685526123883221, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1685526123883415, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526123883483, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526123883495, "dur":2216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1685526123885788, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1685526123885982, "dur":1144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526123887134, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526123887146, "dur":2336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1685526123889618, "dur":302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1685526123889920, "dur":1249, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526123891213, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526123891653, "dur":3375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1685526123895096, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1685526123895262, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526123895323, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526123895333, "dur":1637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1685526123897039, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1685526123897195, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526123897252, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526123897259, "dur":36353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1685526123933671, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526123933736, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526123933797, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526123934119, "dur":1066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526123935233, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526123935282, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526123935323, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526123935392, "dur":1009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526123936448, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526123936497, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526123936538, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526123936545, "dur":23300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526123959900, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526123959969, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526123960018, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526123960029, "dur":1191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526123961271, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526123961331, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526123961420, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526123961428, "dur":1370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526123962855, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526123962906, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526123962986, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526123962996, "dur":1167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526123964235, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526123964307, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526123964374, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526123964384, "dur":1350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526123965782, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526123965840, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526123965889, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526123965897, "dur":998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526123966946, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526123966997, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526123967041, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526123967048, "dur":1026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526123968122, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526123968181, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526123968236, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526123968245, "dur":40929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124009229, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124009284, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124009359, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124009369, "dur":1135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124010552, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124010635, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124010694, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124010702, "dur":1497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124012250, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124012357, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124012404, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124012414, "dur":1288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124013759, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124013813, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124013861, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124013869, "dur":1080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124014996, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124015046, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124015092, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124015099, "dur":1056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124016205, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124016260, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124016307, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124016314, "dur":46362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124062834, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124062920, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124062987, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124063000, "dur":19080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124082147, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124082219, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124082309, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124082318, "dur":2840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124085237, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124085312, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124085375, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124085391, "dur":3101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124088564, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124088645, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124088705, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124088719, "dur":2586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124091373, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124091443, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124091538, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124091548, "dur":2087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124093697, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124093748, "dur":203, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124093959, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124093968, "dur":2229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124096253, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124096306, "dur":353, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124096668, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124096678, "dur":2456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124099210, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124099392, "dur":398, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124099799, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124099810, "dur":3100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124102982, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124103070, "dur":1166, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124104245, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124104256, "dur":2081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124106407, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124106477, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124106540, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124106551, "dur":2171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124108788, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124108859, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124108919, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124108928, "dur":4330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124113326, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124113393, "dur":355, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124113755, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124113764, "dur":3069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124116895, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124116969, "dur":437, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124117414, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124117424, "dur":1743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124119233, "dur":441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124119675, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124119752, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124119762, "dur":2832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124122675, "dur":408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124123084, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124123151, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124123160, "dur":2677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124125906, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124125967, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124126116, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124126125, "dur":5918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124132118, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124132193, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124132264, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124132276, "dur":2800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124135143, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124135234, "dur":580, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124135836, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124135846, "dur":2480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124138402, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124138460, "dur":185, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124138652, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124138662, "dur":2799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124141553, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124141639, "dur":785, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124142433, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124142443, "dur":3642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124146229, "dur":372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124146601, "dur":233, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124146842, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124146854, "dur":2511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124149430, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124149499, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124149561, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124149570, "dur":3325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685526124152963, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1685526124153036, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685526124153046, "dur":15195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1685526124168313, "dur":1266, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526123867296, "dur":448, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526123867748, "dur":9481, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526123877246, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1685526123877250, "dur":158, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526123877417, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1685526123877419, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526123877508, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526123878868, "dur":4147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1685526123883021, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1685526123883206, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526123883301, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526123883417, "dur":1920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1685526123885408, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1685526123885603, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526123885664, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526123885768, "dur":2939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1685526123888786, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1685526123888972, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526123889047, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526123891276, "dur":1716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1685526123893085, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1685526123893280, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526123893340, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526123893352, "dur":2355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1685526123895784, "dur":203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685526123895988, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526123896053, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526123896598, "dur":130190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685526124026844, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685526124026896, "dur":16665, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526124043633, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526124043653, "dur":36938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685526124080660, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685526124080731, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526124080799, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526124080810, "dur":1961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685526124082852, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685526124082919, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526124082977, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526124082985, "dur":2114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685526124085177, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685526124085247, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526124085309, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526124085319, "dur":2962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685526124088353, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685526124088421, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526124088488, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526124088496, "dur":2153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685526124090725, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685526124090795, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526124090850, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526124090858, "dur":2127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685526124093055, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685526124093119, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526124093181, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526124093191, "dur":2408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685526124095674, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685526124095782, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526124095843, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526124095854, "dur":2741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685526124098668, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685526124098728, "dur":162, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526124098898, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526124098908, "dur":3956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685526124102936, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685526124103007, "dur":1231, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526124104246, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526124104256, "dur":2142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685526124106478, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685526124106550, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526124106611, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526124106621, "dur":2268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685526124108958, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685526124109027, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526124109131, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526124109143, "dur":4864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685526124114058, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685526124114108, "dur":424, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526124114539, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526124114548, "dur":3070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685526124117759, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685526124117823, "dur":326, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526124118156, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526124118166, "dur":1771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685526124120007, "dur":886, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685526124120893, "dur":275, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526124121177, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526124121188, "dur":2983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685526124124250, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685526124124313, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526124124372, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526124124395, "dur":8202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685526124132664, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685526124132731, "dur":511, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526124133250, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526124133260, "dur":4235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685526124137569, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685526124137702, "dur":333, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526124138043, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526124138059, "dur":3491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685526124141640, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685526124141746, "dur":982, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526124142735, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526124142745, "dur":5482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685526124148307, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685526124148375, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526124148442, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526124148452, "dur":3176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685526124151727, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1685526124151837, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526124151956, "dur":2998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1685526124155033, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1685526124155274, "dur":1116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526124156396, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526124156405, "dur":4395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1685526124160878, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1685526124161069, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526124161079, "dur":4641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1685526124165825, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1685526124165916, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685526124165927, "dur":2683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1685526124168657, "dur":920, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526123867662, "dur":167, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526123867829, "dur":9461, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526123877292, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1685526123877501, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526123877581, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526123880640, "dur":2553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1685526123883278, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1685526123883465, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526123883542, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526123884219, "dur":1535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1685526123885826, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1685526123886014, "dur":1111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526123887135, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526123887146, "dur":2160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1685526123889449, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1685526123889687, "dur":186, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526123889881, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526123891698, "dur":3664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1685526123895444, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685526123895652, "dur":205, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526123895865, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526123896690, "dur":2898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685526123899640, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code.exe" }}
+,{ "pid":12345, "tid":3, "ts":1685526123899741, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526123899787, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526123899793, "dur":2110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code.exe" }}
+,{ "pid":12345, "tid":3, "ts":1685526123901982, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1685526123902144, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526123902197, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526123902537, "dur":119594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1685526124022202, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685526124022258, "dur":21384, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526124043655, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526124043670, "dur":19665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685526124063406, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685526124063473, "dur":17208, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526124080730, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526124080744, "dur":1901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685526124082718, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685526124082785, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526124082876, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526124082886, "dur":2498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685526124085456, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685526124085531, "dur":195, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526124085734, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526124085744, "dur":2874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685526124088686, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685526124088768, "dur":298, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526124089074, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526124089086, "dur":2460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685526124091612, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685526124091685, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526124091746, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526124091754, "dur":3683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685526124095510, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685526124095582, "dur":379, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526124095969, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526124095989, "dur":2766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685526124098821, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685526124098893, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526124098956, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526124098966, "dur":3590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685526124102631, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685526124102698, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526124102788, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526124102798, "dur":2946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685526124105825, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685526124105899, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526124105962, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526124105972, "dur":2297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685526124108341, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685526124108410, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526124108471, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526124108481, "dur":2307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685526124110851, "dur":519, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685526124111370, "dur":1365, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526124112744, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526124112756, "dur":2373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685526124115210, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685526124115280, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526124115389, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526124115398, "dur":3228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685526124118705, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685526124118778, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526124118841, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526124118851, "dur":2067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685526124120976, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685526124121035, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526124121102, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526124121111, "dur":2359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685526124123539, "dur":983, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685526124124523, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526124124592, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526124124602, "dur":7584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685526124132264, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685526124132356, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526124132435, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526124132447, "dur":4637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685526124137217, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685526124137279, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526124137342, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526124137359, "dur":2521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685526124139956, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685526124140026, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526124140091, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526124140100, "dur":5447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685526124145617, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685526124145693, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526124145761, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526124145772, "dur":3622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685526124149465, "dur":271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685526124149753, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526124149763, "dur":2169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685526124152013, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1685526124152254, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526124152265, "dur":2406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1685526124154745, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1685526124154824, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526124154833, "dur":2794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1685526124157694, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1685526124157871, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526124157881, "dur":5848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1685526124163887, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1685526124163967, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526124163977, "dur":3902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1685526124167969, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1685526124168219, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526124168302, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685526124168311, "dur":1201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1685526124169565, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1685526124169566, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685526123867449, "dur":372, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685526123867821, "dur":9418, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685526123877246, "dur":363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1685526123877610, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685526123877686, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685526123880314, "dur":2780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1685526123883171, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1685526123883357, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685526123883428, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685526123883438, "dur":2146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1685526123885664, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1685526123885855, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685526123885944, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685526123885955, "dur":3072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1685526123889100, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1685526123889312, "dur":265, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685526123889584, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685526123889848, "dur":3969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1685526123893883, "dur":407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1685526123894290, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685526123894366, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685526123894378, "dur":2350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1685526123896809, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685526123897023, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685526123897086, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685526123897094, "dur":185385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685526124082554, "dur":665, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685526124083220, "dur":472, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685526124083700, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685526124083743, "dur":1890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685526124085685, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685526124085757, "dur":1088, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685526124086855, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685526124086866, "dur":1727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685526124088667, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685526124088739, "dur":326, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685526124089073, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685526124089086, "dur":2513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685526124091689, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685526124091778, "dur":414, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685526124092200, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685526124092210, "dur":3277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685526124095562, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685526124095635, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685526124095697, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685526124095732, "dur":2441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685526124098260, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685526124098328, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685526124098391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685526124098432, "dur":2923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685526124101435, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685526124101503, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685526124101566, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685526124101576, "dur":2917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685526124104592, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685526124104658, "dur":220, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685526124104886, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685526124104896, "dur":1755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685526124106732, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685526124106804, "dur":387, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685526124107198, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685526124107206, "dur":2165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685526124109437, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685526124109507, "dur":726, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685526124110240, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685526124110250, "dur":2613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685526124112933, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685526124113003, "dur":484, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685526124113494, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685526124113504, "dur":2418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685526124115971, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685526124116028, "dur":591, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685526124116627, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685526124116636, "dur":3342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685526124120044, "dur":1527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685526124121572, "dur":367, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685526124121949, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685526124121960, "dur":2829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685526124124847, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685526124125019, "dur":213, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685526124125240, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685526124125250, "dur":9329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685526124134669, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685526124134735, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685526124134793, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685526124134803, "dur":2726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685526124137595, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685526124137680, "dur":356, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685526124138044, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685526124138054, "dur":2499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685526124140623, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685526124140690, "dur":168, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685526124140867, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685526124140878, "dur":7390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685526124148355, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685526124148423, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685526124148483, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685526124148492, "dur":7253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685526124155809, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1685526124156057, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685526124156123, "dur":13, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685526124156145, "dur":2231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1685526124158463, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1685526124158545, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685526124158555, "dur":6926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1685526124165548, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1685526124165624, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685526124165633, "dur":2596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/nin-nin-gaiden/Nin Nin Ninja.V2.36/code_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1685526124168303, "dur":1278, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685526124173797, "dur":3490, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1685526124205388, "dur": 1311, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685526124205251, "dur": 1480, "ph": "X", "name": "Write chrome-trace events", "args": {} },

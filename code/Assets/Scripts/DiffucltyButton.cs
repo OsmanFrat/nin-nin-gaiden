@@ -8,6 +8,7 @@ public class DiffucltyButton : MonoBehaviour
     private Button button;
     private GameManager gameManager;
     public int difficulty;
+   
     void Start()
     {
         button = GetComponent<Button>();
@@ -19,12 +20,38 @@ public class DiffucltyButton : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
+
     }
+
+
+
 
     void SetDifficulty()
     {
         Debug.Log(gameObject.name + " was clicked");
         gameManager.StartGame(difficulty);
+        
     }
 }
+
+/* 
+
+void ChangePaused()
+{
+    if (!paused)
+    {
+        paused = true;
+        pauseScreen.SetActive(true);
+        Time.timeScale = 0;
+    }
+    else
+    {
+        paused = false;
+        pauseScreen.SetActive(false);
+        Time.timeScale = 1;
+    }
+}
+
+
+ */

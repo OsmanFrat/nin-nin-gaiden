@@ -31,8 +31,26 @@ public class Target : MonoBehaviour
         
     }
 
-    private void OnMouseDown() {
+
+
+    private void OnTriggerEnter(Collider other) 
+    {
         
+        Destroy(gameObject);
+
+        if (!gameObject.CompareTag("Bad"))
+        {
+            gameManager.UpdateLives(-1);
+            if(gameManager.lives < 0)
+            {
+                gameManager.lives = 0;
+                gameManager.UpdateLives(0);
+            }
+        }
+    }
+
+    public void DestroyTarget()
+    {
         if(gameManager.isGameActive)
         {
             Destroy(gameObject);
@@ -40,21 +58,17 @@ public class Target : MonoBehaviour
             gameManager.UpdateScore(pointValue);
         }
         
-
         if(CompareTag("Bad"))
         {
-            gameManager.gameOverText.gameObject.SetActive(true);
-            gameManager.GameOver();
-        }
-    }
+            gameManager.UpdateLives(-1);
+            if(gameManager.lives < 0)
+            {
+                gameManager.lives = 0;
+                gameManager.UpdateLives(0);
+            }
 
-    private void OnTriggerEnter(Collider other) {
-        Destroy(gameObject);
-        if(!CompareTag("Bad"))
-        {
-            gameManager.gameOverText.gameObject.SetActive(true);
-            gameManager.GameOver();
         }
+        
     }
     Vector3 RandomForce()
     {
