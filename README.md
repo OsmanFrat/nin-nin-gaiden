@@ -1,6 +1,6 @@
 # nin-nin-gaiden
 Unity tutorial user interface\
-Play link: \
+Play link: https://osmanfrat.itch.io/nin-nin-ninja
 
 
 
